@@ -87,8 +87,9 @@ h4, h5, h6 {
 h1 {
   font-size: 2.2em;
   /* font-weight: 800; */
-  background: linear-gradient(to right, #667eea, #764ba2); /* Indigo-purple gradient */
-  color: white;
+  /* background: linear-gradient(to right, #667eea, #764ba2);  */
+  background-color: #edf7f4;
+  color: #2c8250;
   padding: 0.5em 0.8em;
   border-radius: 10px;
   /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); */
@@ -139,10 +140,16 @@ h6 {
 
 blockquote {
   color: #000000;
-  background-color: #07ff0b42;
+  background-color: #0ce9d730;
   margin: 0;
   padding-left: 3em;
-  border-left: 0.5em #EEE solid;
+  border: 1px #000000 solid;
+  padding-bottom : 3em;
+  border-radius: 10px;
+}
+
+blockquote p{
+  font-weight: bold;
 }
 
 hr {
